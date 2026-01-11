@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>SzafraNET | Monitoring, instalacje elektryczne i sieci</title>
+
+    <meta
+      name="description"
+      content="SzafraNET - profesjonalne instalacje monitoringu, elektryki i sieci komputerowych dla domu i biznesu. Doświadczenie, terminowość, nowoczesne rozwiązania."
+    />
+
+    <!-- SCHEMA.ORG -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://szafranet.pl/#localbusiness",
+        "name": "SzafraNET",
+        "url": "https://szafranet.pl",
+        "logo": "https://szafranet.pl/Logo-270x100.png",
+        "image": "https://szafranet.pl/Logo-270x100.png",
+        "description": "SzafraNET – profesjonalne instalacje monitoringu, elektryki i sieci komputerowych dla domu i biznesu.",
+        "telephone": "+48883690590",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "PL"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Polska"
+        },
+        "sameAs": ["https://www.facebook.com/", "https://www.instagram.com/"],
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Monitoring CCTV" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalacje elektryczne"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Sieci komputerowe" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Instalacje RTV/SAT" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Serwis i modernizacja instalacji"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#020617" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <img
+          src="Logo-360x95.png"
+          alt="SzafraNET – instalacje i monitoring"
+          class="logo"
+        />
+
+        <nav id="menu" class="menu" aria-label="Główna nawigacja">
+          <a href="#about">O nas</a>
+          <a href="#services">Usługi</a>
+          <a href="#projects">Realizacje</a>
+          <a href="#contact" class="btn">Kontakt</a>
+        </nav>
+
+        <button
+          class="hamburger"
+          type="button"
+          onclick="toggleMenu()"
+          aria-label="Otwórz menu"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <!-- JEDYNY H1 -->
+        <h1>Profesjonalne instalacje<br />dla domu i biznesu</h1>
+
+        <p>Elektryka • Monitoring • Sieci • Telewizja</p>
+
+        <div class="cta">
+          <a href="tel:+48883690590" class="btn">Zadzwoń</a>
+          <a href="#contact" class="btn outline">Bezpłatna wycena</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>O nas</h2>
+        <p>
+          SzafraNET to doświadczenie, profesjonalizm i nowoczesne rozwiązania
+          techniczne dla domu i biznesu.
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="section dark">
+      <div class="container">
+        <h2>Usługi</h2>
+
+        <div class="grid">
+          <div class="card">
+            <a href="instalacje-elektryczne.html">
+              <img
+                src="./img/instalacje-elektryczne-rozdzielnia.webp"
+                alt="Profesjonalne instalacje elektryczne i zabezpieczenia elektryczne"
+                loading="lazy"
+            /></a>
+            <h3>Instalacje elektryczne</h3>
+          </div>
+          <div class="card">
+            <img
+              src="./img/monitoring-cctv-montaz-kamery.webp"
+              alt="Montaż systemu monitoringu CCTV w obiekcie komercyjnym i domu"
+              loading="lazy"
+            />
+            <h3>Monitoring CCTV</h3>
+          </div>
+
+          <div class="card">
+            <img
+              src="./img/sieci-komputerowe-lan-instalacja.webp"
+              alt="Instalacja sieci komputerowych LAN i infrastruktury IT"
+              loading="lazy"
+            />
+            <h3>Sieci komputerowe</h3>
+          </div>
+
+          <div class="card">
+            <img
+              src="./img/instalacja-anten-satelitarnych.webp"
+              alt="Montaż anten satelitarnych i instalacji RTV/SAT"
+              loading="lazy"
+            />
+            <h3>RTV/SAT</h3>
+          </div>
+
+          <div class="card">
+            <img
+              src="./img/serwis-instalacji-technicznych.webp"
+              alt="Serwis i modernizacja instalacji technicznych i elektrycznych"
+              loading="lazy"
+            />
+            <h3>Serwis i modernizacja</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Wybrane realizacje</h2>
+
+        <div class="gallery-grid small-gallery">
+          <a
+            href="./img/realizacje/monitoring/monitoring-01.webp"
+            class="gallery-item"
+            data-caption="Monitoring CCTV – dom jednorodzinny"
+          >
+            <img
+              src="./img/realizacje/monitoring/monitoring-01.webp"
+              alt="Monitoring CCTV – dom jednorodzinny"
+              loading="lazy"
+            />
+          </a>
+
+          <a
+            href="./img/realizacje/elektryka/elektryka-01.webp"
+            class="gallery-item"
+            data-caption="Instalacja elektryczna – nowa rozdzielnia"
+          >
+            <img
+              src="./img/realizacje/elektryka/elektryka-01.webp"
+              alt="Instalacja elektryczna – rozdzielnia"
+              loading="lazy"
+            />
+          </a>
+
+          <a
+            href="./img/realizacje/sieci/sieci-01.webp"
+            class="gallery-item"
+            data-caption="Sieć komputerowa LAN – biuro"
+          >
+            <img
+              src="./img/realizacje/sieci/sieci-01.webp"
+              alt="Instalacja sieci LAN"
+              loading="lazy"
+            />
+          </a>
+
+          <a
+            href="./img/realizacje/monitoring/monitoring-02.webp"
+            class="gallery-item"
+            data-caption="Monitoring CCTV – firma"
+          >
+            <img
+              src="./img/realizacje/monitoring/monitoring-02.webp"
+              alt="Monitoring CCTV – firma"
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section dark">
+      <div class="container">
+        <h2>Kontakt</h2>
+
+        <div class="contact-layout">
+          <!-- DANE FIRMY -->
+          <div class="contact-info">
+            <img
+              src="Logo-270x70.png"
+              alt="SzafraNET – profesjonalne instalacje teletechniczne i elektryczne"
+              class="contact-logo"
+            />
+
+            <p class="contact-company">
+              <strong>SzafraNET</strong><br />
+              Profesjonalne instalacje teletechniczne i elektryczne
+            </p>
+
+            <p>
+              📞 <a href="tel:+48883690590">+48 883 690 590</a><br />
+              ✉️ <a href="mailto:kontakt@szafranet.pl">kontakt@szafranet.pl</a>
+            </p>
+
+            <p class="contact-note">Działamy na terenie całej Polski</p>
+          </div>
+
+          <!-- FORMULARZ -->
+          <form class="form" action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Imię" required />
+            <input type="tel" name="phone" placeholder="Telefon" required />
+            <input type="email" name="email" placeholder="Email" required />
+
+            <!-- honeypot (antyspam) -->
+            <input type="text" name="company" style="display: none" />
+
+            <textarea
+              name="message"
+              placeholder="Wiadomość"
+              required
+            ></textarea>
+
+            <button type="submit" class="btn">Wyślij</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 SzafraNET | PROFESJONALIZM • DOŚWIADCZENIE</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
